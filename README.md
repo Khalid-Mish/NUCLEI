@@ -5,7 +5,7 @@ This project includes a recursvie descent parser as well as an interpreter.
 The project can be compiled with "make parse" and "make interp"
 
 # The Formal Grammar
-<PROG> ::= "(" <INSTRCTS>
+"<PROG> ::= "(" <INSTRCTS>"
 
 <INSTRCTS> ::= <INSTRCT> <INSTRCTS> | ")"
 
